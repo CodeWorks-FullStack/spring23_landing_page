@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<!-- NOTE this is for seeing the outlines of our boxes/divs -->
+<!-- <style>
+    div {
+        border: 2px dashed blue;
+    }
+
+    div>div {
+        border: 2px solid green;
+    }
+</style> -->
+
+<body class="biorhyme">
+    <!-- NOTE 'divs' are boxes -->
+
+    <header>
+        <b>Landing Page</b>
+    </header>
+
+    <main>
+
+        <div class="row d-flex img-row justify-content-end">
+            <h1 class="pr-2">Samantha "Sammy Goose" Dison</h1>
+
+            <img class="sam-img" src="https://avatars.githubusercontent.com/u/93692237?v=4" alt="wild doggie">
+        </div>
+
+        <!-- NOTE this is our 'parent' div.... we want display flex here -->
+        <div class="row d-flex justify-content-evenly p-2">
+            <div class="p-2 card">
+                <h2 class="text-center">Likes</h2>
+                <ul>
+                    <li>Cats</li>
+                    <li>Crocs</li>
+                    <li>Anime</li>
+                    <li>Fashion</li>
+                    <li>People who laugh at my jokes</li>
+                </ul>
+            </div>
+            <div class="p-2 card">
+                <h2 class="text-center">Dislikes</h2>
+                <ul>
+                    <li>Grubby fingers</li>
+                    <li>People who don't laugh at my jokes</li>
+                    <li>Capslock</li>
+                    <li>Ice water</li>
+                    <li>Country music</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row  ">
+            <marquee behavior="" direction="">
+
+                <div class="d-flex justify-content-around p-2 align-items-center">
+
+                    <div class="bean-card">
+                        <img class="bean-img" src="./Beans/Bean1.JPG" alt="">
+                    </div>
+                    <div class="bean-card">
+                        <img class="bean-img" src="./Beans/Bean3.JPG" alt="">
+                    </div>
+                    <div class="bean-card">
+                        <img class="bean-img" src="./Beans/Bean4.jpg" alt="">
+                    </div>
+                    <div class="bean-card">
+                        <img class="bean-img" src="./Beans/Bean5.JPG" alt="">
+                    </div>
+                    <div class="bean-card">
+                        <img class="bean-img" src="./Beans/Bean6.jpg" alt="">
+                    </div>
+                    <div class="bean-card">
+                        <img class="bean-img" src="./Beans/Bean7.jpg" alt="">
+                    </div>
+                    <div class="bean-card">
+                        <img class="bean-img" src="./Beans/Bean8.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </marquee>
+        </div>
+
+    </main>
+
+    <footer class="text-center">
+        <p>Made with 💗 by Sammy Goose </p>
+    </footer>
+
+</body>
+
+</html>
